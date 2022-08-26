@@ -1,7 +1,6 @@
-import { FormControlLabel, Grid, Radio, TextField } from "@mui/material";
+import { Grid, Radio, TextField } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import "./style.css"
-// import AllLogin from "../../images/AllLogin.png"
 import { useFormik } from "formik"
 import * as Yup from "yup"
 import { useState } from "react";
@@ -83,7 +82,7 @@ const Login = () => {
     <>
       <Grid sx={{ display: "flex", margin: "0" }}>
         <Grid className={classes.styleGrid}>
-          {/* <img className={classes.styleGridImg} src={AllLogin} alt="" /> */}
+          <img className={classes.styleGridImg} src={require("../../Img/AllLogin.png")} alt="" />
         </Grid>
         <Grid sx={{ textAlign: "center", margin: "auto" }}>
           <h1 className={classes.mainText}>Boshqaruv paneli</h1>

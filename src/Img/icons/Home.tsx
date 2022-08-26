@@ -1,9 +1,6 @@
-// import Icon from "../Vector.svg";
-
 const HomeIcon = () => {
   return (
-    // <img src={Icon} alt="" />
-    <div></div>
+    <img src={require("../Home.png")} alt="" />
   )
 };
 

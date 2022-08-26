@@ -1,9 +1,6 @@
-// import Icon from "../Vector.png";
-
 const CategoryIcon = () => {
   return (
-    // <img src={Icon} alt="" />;
-    <div></div>
+    <img src={require("../Vector.png")} alt="" />
   )
 };
 
